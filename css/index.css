@@ -5,6 +5,12 @@ body {
   overflow-x: hidden;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .cursor {
   cursor: pointer;
 }
@@ -324,6 +330,10 @@ body {
   position: relative;
 }
 
+.twice-section__info div {
+  margin-bottom: 20px;
+}
+
 .twice-section__info .twice-section__info-list--one {
   width: 250px;
   margin-left: 60px;
@@ -357,13 +367,12 @@ body {
   text-align: center;
   position: absolute;
   left: -6px;
-  top: 110px;
+  top: 120px;
 }
 
 .twice-section__info .twice-section__info-list--three {
   width: 250px;
   margin-left: 60px;
-  margin-bottom: 50px;
 }
 
 .twice-section__info .twice-section__info-list--three::before {
@@ -376,7 +385,7 @@ body {
   text-align: center;
   position: absolute;
   left: -6px;
-  top: 180px;
+  top: 210px;
 }
 
 .twice-section__info .twice-section__info-list-four {
