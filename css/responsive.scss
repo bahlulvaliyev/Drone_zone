@@ -66,6 +66,7 @@
             .first-header__list{
                 ul{
                     float: unset;
+                    justify-content: center;
                 }
             }
         }
@@ -111,6 +112,7 @@
                     float: unset;
                     width: 100%;
                     padding: 0;
+                    justify-content: center;
                     li{
                         font-size: 12px;
                     }

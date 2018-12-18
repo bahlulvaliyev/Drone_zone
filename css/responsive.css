@@ -51,6 +51,9 @@
   }
   .first-header .row .first-header__list ul {
     float: unset;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .first-header .first-header__content .first-header__content--block {
     margin-left: 23%;
@@ -79,6 +82,9 @@
     float: unset;
     width: 100%;
     padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .first-header .row .first-header__list ul li {
     font-size: 12px;
