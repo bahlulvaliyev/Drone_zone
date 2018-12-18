@@ -128,6 +128,12 @@ body {
   display: none;
 }
 
+.first-header .first-header__scrool--mause p {
+  width: 100px;
+  padding-top: 10px;
+  margin-left: -32px;
+}
+
 .scroll-downs {
   width: 35px;
   height: 55px;
@@ -245,6 +251,10 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#1900ff), color-stop(#1612f8), color-stop(#273cf1), color-stop(#4441f1), to(#5145fa));
   background: linear-gradient(0.25turn, #1900ff, #1612f8, #273cf1, #4441f1, #5145fa);
   margin-bottom: 100px;
+}
+
+.first-section .first-section__inform-price:hover {
+  cursor: pointer;
 }
 
 .twice-section {
@@ -508,5 +518,10 @@ body {
   padding-bottom: 200px;
   color: #a7acbc;
   width: 48%;
+}
+
+.sevenSection__block-text a {
+  text-decoration: none;
+  color: #a7acbc;
 }
 /*# sourceMappingURL=index.css.map */

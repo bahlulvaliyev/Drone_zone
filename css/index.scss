@@ -103,6 +103,12 @@ body{
         width: 50px;
         margin-left: auto;
         margin-right: auto;
+        p{
+            width:100px;
+            padding-top: 10px;
+            margin-left: -32px;
+
+        }
     }
    
 }
@@ -165,6 +171,9 @@ body{
         }
     }
     .first-section__inform-price{
+        &:hover{
+            cursor: pointer;
+        }
         margin-top: 150px;
         text-align: center;
         margin-left: auto;
@@ -426,4 +435,8 @@ body{
     padding-bottom: 200px;
     color: #a7acbc;
     width: 48%;
+    a{
+        text-decoration: none;
+        color: #a7acbc;
+    }
 }
