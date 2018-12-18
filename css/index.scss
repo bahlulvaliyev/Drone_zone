@@ -4,6 +4,9 @@ body{
     font-family: ProximaNova;
     overflow-x: hidden;
 }
+.cursor{
+    cursor: pointer;
+}
 .first-header{
     position: relative;
     .first-header__background-img{
@@ -335,6 +338,7 @@ body{
     }
 }
 .thrice-section{
+    position: relative;
     .thrice-section__container--row-one{
     
     .col-lg-6{
@@ -372,9 +376,33 @@ body{
     }
 }
 }
+.thrice-section__row-one-play{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 48%;
+    i{
+        color: #ffffff;
+        font-size:45px;
+    }
+}
+.thrice-section__row-two-play{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 32%;
+    i{
+        color: #ffffff;
+        font-size:45px;
+    }
+}
 
 .thrice-section{
+    .btn-primary{
+        cursor: pointer;
+    }
     .thrice-section__container--row-two{
+        
     .col-lg-6{
         width: 50%;
         div{

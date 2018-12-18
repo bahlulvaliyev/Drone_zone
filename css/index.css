@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .first-header {
   position: relative;
 }
@@ -417,6 +421,10 @@ body {
   top: 11px;
 }
 
+.thrice-section {
+  position: relative;
+}
+
 .thrice-section .thrice-section__container--row-one .col-lg-6 {
   width: 50%;
 }
@@ -452,6 +460,36 @@ body {
   font-size: 18px;
   line-height: 36px;
   color: #5e6372;
+}
+
+.thrice-section__row-one-play {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 48%;
+}
+
+.thrice-section__row-one-play i {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.thrice-section__row-two-play {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 32%;
+}
+
+.thrice-section__row-two-play i {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.thrice-section .btn-primary {
+  cursor: pointer;
 }
 
 .thrice-section .thrice-section__container--row-two .col-lg-6 {
