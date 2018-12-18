@@ -42,11 +42,24 @@
                     </p>
                     <div class="first-header__content--block">
                         <a href="#">
-                            <div class="first-header__content--Myriad">Ask for price</div>
+                            <div type="button" class="btn btn-primary first-header__content--Myriad" data-toggle="modal" data-target=".bs-example-modal-lg">Ask for price</div>
                         </a>
+                        
                         <a href="#">
-                            <div><i class="fas fa-play"></i>Watch video</div>
+                            <div type="button" class="btn btn-primary" data-toggle="modal" data-target=".video-modal"><i class="fas fa-play"></i>Watch video</div>
                         </a>
+             <!-- Large modal -->
+                <div class="modal fade bs-example-modal-lg video-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modaContent--img">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8YFiyOLIT9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                                </div>
+                         </div>
+                    </div>
+                </div>
+            <!--Large modal done-->
                     </div>
                     <div class="first-header__scrool--mouse">
                         <div class="scroll-downs">
@@ -94,10 +107,9 @@
             </div>
             </div>
             <div class="first-section__inform-price" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Ask for price</div>
-        </div>
-    </section>
 
-     <!-- Large modal -->
+        </div>
+        <!-- Large modal -->
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -113,6 +125,9 @@
 </div>
 <!--Large modal done-->
 
+    </section>
+
+     
 
     <section class="twice-section">
         <div class="container-fluid">
