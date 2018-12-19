@@ -10,6 +10,23 @@ body{
 .cursor{
     cursor: pointer;
 }
+.first-section__hamburger--menu{
+    text-align: center;
+    display: none;
+    i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+.close_menu{
+    display: none;
+    text-align: center;
+    i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
 .first-header{
     position: relative;
     .first-header__background-img{

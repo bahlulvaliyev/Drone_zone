@@ -15,6 +15,26 @@ body {
   cursor: pointer;
 }
 
+.first-section__hamburger--menu {
+  text-align: center;
+  display: none;
+}
+
+.first-section__hamburger--menu i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.close_menu {
+  display: none;
+  text-align: center;
+}
+
+.close_menu i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .first-header {
   position: relative;
 }
